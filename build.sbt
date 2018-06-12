@@ -1,22 +1,22 @@
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.6"
 
-crossScalaVersions := Seq("2.11.11", "2.12.3")
+crossScalaVersions := Seq("2.11.11", "2.12.6")
 
 organization := "com.1on1development"
 
 name := "slick-migration-api-flyway"
 
-version := "0.4.1"
+version := "0.5.0-SNAPSHOT"
 
 scalacOptions += "-deprecation"
 
-libraryDependencies += "io.github.nafg" %% "slick-migration-api" % "0.4.1"
+libraryDependencies += "io.github.nafg" %% "slick-migration-api" % "0.4.2"
 
-libraryDependencies += "org.flywaydb" % "flyway-core" % "4.2.0"
+libraryDependencies += "org.flywaydb" % "flyway-core" % "5.1.1"
 
-libraryDependencies += "com.h2database" % "h2" % "1.4.196" % "test"
+libraryDependencies += "com.h2database" % "h2" % "1.4.197" % "test"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.3" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 
 resolvers += Resolver.jcenterRepo
 
